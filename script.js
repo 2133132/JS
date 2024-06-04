@@ -68,6 +68,7 @@ while(input!=password && !entry_of_limit){
 }
 if(entry_of_limit){
     alert("超出輸入次數，登入失敗，將關閉此網頁");
+    window.open(""._self);
     window.close();
     
 }
