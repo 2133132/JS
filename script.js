@@ -49,7 +49,7 @@ document.write("<br/>");
 document.write("<br/>");
 
 //while迴圈應用 密碼驗證系統
-
+window.open(""._self);
 var password="123321";
 var input;
 var entry_count=0;
@@ -68,7 +68,6 @@ while(input!=password && !entry_of_limit){
 }
 if(entry_of_limit){
     alert("超出輸入次數，登入失敗，將關閉此網頁");
-    window.open(""._self);
     window.close();
     
 }
